@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Sriram Kasyap Meduri">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coming Soon | Sriram Kasyap Meduri</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+  </head>
+  <body>
+    <img id="wic" src="winter is coming-text.png" alt="Website is Coming" />
+    <footer>
+      <div class="foot-note">
+        <div class="left bar"><p class="left">Sriram Kasyap Meduri</p></div>
+        <div class="right bar">
+          <p class="right">
+            <a class="fb" href="https://www.facebook.com/msskasyap3" target="_blank">Facebook</a> |
+            <a class="gp" href="https://plus.google.com/100364929070330799932" target="_blank">Google +</a> |
+            <a class="tw" href="https://twitter.com/SriramKasyapM" target="_blank">Twitter</a> |
+            <a class="li" href="https://in.linkedin.com/in/sriramkasyap" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <style>
+    @font-face {
+      font-family: GameOfThrones;
+      src: url('Game of Thrones.woff') format('woff'); /* Modern Browsers */
+
+    }
+    body{
+
+      font-family: GameOfThrones;
+      font-stretch: expanded !important;
+      letter-spacing: 2px;
+      margin: 0px;
+      width: 100vw;
+      height: 100vh;
+      max-height: 100vh;
+      overflow: hidden;
+      background-image: url('winter is coming.jpg');
+      background-position: right bottom;
+      background-attachment: fixed;
+      background-size:cover;
+      background-repeat: no-repeat;
+    }
+    p,a {
+      font-size: 0.9em !important;
+      color: #000;
+      text-decoration: none  !important;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      border-radius: 5px;
+    }
+    a{
+
+      font-family: 'Lobster Two', cursive;
+    }
+    a:hover,a:focus{
+      color: #FFF;
+      font-family: 'Lobster Two', cursive;
+      padding: 10px;
+    }
+    a.fb:hover, a.fb:focus{
+        background: #3b5998;
+    }
+    a.gp:hover, a.gp:focus{
+        background: #d34836;
+    }
+    a.tw:hover, a.tw:focus{
+        background: #1da1f2;
+    }
+    a.li:hover, a.li:focus{
+        background: #0077b5;
+    }
+    footer{
+      width: 100%;
+      height: 7%;
+      position: absolute;
+      bottom: 0px;
+    }
+    footer>div.foot-note {
+      width: 90%;
+      margin: auto;
+      height: 100%;
+      border-top: 1px solid #666;
+
+    }
+    footer>div.foot-note>.bar{
+      width: 50%;
+      height: 100%;
+    }
+    .left{
+      float: left;
+    }
+    .right{
+      float: right;
+    }
+    #wic {
+      position: absolute;
+    }
+
+    @media screen and (min-width: 768px) {
+      #wic {
+        width: 25%;
+        height: auto;
+        top:20%;
+        left: 8%;
+      }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 768px){
+      #wic {
+        width: 35%;
+        height: auto;
+        top:10%;
+        left: 6%;
+      }
+    }
+
+    @media screen and (max-width: 600px){
+      #wic {
+        width: 50%;
+        height: auto;
+        top: 15%;
+        left: 4%;
+      }
+      body{
+        background-size: contain;
+        background-image: url('winter is coming-half.jpg');
+      }
+    }
+
+  </style>
+</html>
