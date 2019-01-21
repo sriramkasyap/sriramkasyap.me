@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://skme.netlify.com/* https://sriramkasyap.me/:splat 301!
